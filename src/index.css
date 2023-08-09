@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Sahel';
+    src: url('./assets/fonts/Sahel.eot') format('eot');
+    src: url('./assets/fonts/Sahel.woff') format('woff');
+  }
+
+  * {
+    font-family: 'Sahel';
+  }
+
+  body {
+    background-color: rgb(166, 171, 201);
+  }
+
+.form-group>label{
+    top:-15px;
+    right:25px;
+}
